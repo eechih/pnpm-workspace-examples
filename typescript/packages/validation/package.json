@@ -1,0 +1,18 @@
+{
+  "name": "@eechih/validation",
+  "version": "1.0.0",
+  "description": "A code library for validation, reusable in the frontend and backend.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist *.tsbuildinfo",
+    "build": "tsc",
+    "start:dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

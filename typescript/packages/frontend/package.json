@@ -1,0 +1,28 @@
+{
+  "name": "@eechih/frontend",
+  "version": "1.0.0",
+  "description": "A simple frontend for editing a todo list.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "start:dev": "parcel src/index.html",
+    "build": "tsc",
+    "clean": "rm -rf dist *.tsbuildinfo .parcel-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.7",
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@eechih/validation": "workspace:^",
+    "axios": "^1.5.1",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
